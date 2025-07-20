@@ -1,0 +1,22 @@
+STEP1 : Define the project
+For a client
+
+STEP2 : What the website is for
+Business goal: Get more order in advance, sell more meals 
+User goal:No waiting time, order in advance and enjoy hot food when arrive at the restaurant
+
+STEP3 : Define the target audience
+People who is interested on organic and healthy food, get their meals as ther arrive restaurant
+
+
+#####
+
+## Sections
+
+- Navigation
+- Hero
+- Categories
+- Our Application
+- Dishes
+- restaurant
+- Footer

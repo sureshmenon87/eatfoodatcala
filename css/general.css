@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Henriette", sans-serif; /* Use the font family */
+  background-color: #fff3dd;
+}
+
+@font-face {
+  font-family: "Henriette"; /* Name your font family */
+  src: url("../fonts/HenrietteCondensed-Regular.ttf"); /* Locate the .ttf file within your directory*/
+}
+
+.secondary-btn:hover,
+.primary-btn:hover {
+  background-color: #f06b32;
+  color: #fff3dd;
+}
+.primary-btn {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  background-color: #fff3dd;
+  border-radius: 24px;
+  color: #f06b32;
+  padding: 12px 32px 12px 32px;
+  border: none;
+}
+
+.secondary-btn {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  background-color: #664d36;
+  border-radius: 24px;
+  color: #fff3dd;
+  padding: 12px 32px 12px 32px;
+  border: none;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.message {
+  font-size: 1rem;
+  color: #664d36;
+}
