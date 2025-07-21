@@ -1,0 +1,235 @@
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .food-quote {
+    font-size: 3rem;
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+
+  .food-quote {
+    font-size: 2.8rem;
+  }
+
+  .food-card-title {
+    font-size: 5.2rem;
+  }
+  .cta-title {
+    font-size: 3.8rem;
+  }
+  .dishes-heading {
+    font-size: 4.8rem;
+  }
+  .card-title {
+    font-size: 3rem;
+  }
+  .food-card-display {
+    gap: 2rem;
+  }
+  .food-card-img {
+    width: 95%;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+  .food-card-display {
+    flex-direction: column;
+  }
+  .food-card-img {
+    width: 100%;
+  }
+  .food-card {
+    width: 95%;
+
+    display: inline-block;
+  }
+  .table-dishes {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .footer {
+    padding-left: 4rem;
+  }
+  .flex-rest {
+    gap: 4rem;
+    padding: 4rem;
+  }
+  .side-card {
+    width: 100%;
+  }
+  .card-title {
+    padding-top: 2rem;
+    font-size: 4rem;
+  }
+  .card-desc {
+    font-size: 3rem;
+  }
+  .secondary-btn {
+    font-size: 2rem;
+  }
+  .section-cta {
+    grid-template-columns: 1fr;
+    padding: 0;
+    background-color: #664d36;
+  }
+
+  .cta-title {
+    font-size: 6rem;
+  }
+  .cta-app {
+    padding-left: 4rem;
+    width: 98%;
+    padding-bottom: 8rem;
+  }
+  .cta-app p {
+    font-size: 3.8rem;
+    padding-bottom: 8rem;
+  }
+  .dishes-heading {
+    font-size: 6rem;
+  }
+  .dish-desc {
+    font-size: 1.6rem;
+  }
+  .footer-heading {
+    font-size: 2.4rem;
+  }
+  .footer-links {
+    font-size: 1.6rem;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .card-desc {
+    font-size: 2.2rem;
+  }
+  .card-title {
+    font-size: 4rem;
+  }
+  .table-dishes {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: min-content;
+  }
+  .table-dishes:first-child {
+    grid-auto-rows: max-content;
+    grid-column: span 2;
+  }
+  .table-dishes:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .table-dishes:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .table-dishes:nth-child(4) {
+    grid-column: span -2;
+    grid-row: 3;
+  }
+
+  .dishes-menu-btn {
+    grid-row: 4;
+    text-align: center;
+    grid-column: span 2;
+  }
+  .dishes-heading {
+    font-family: inherit;
+    color: #f06b32;
+    font-weight: 800;
+    font-size: 5.2rem;
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .cta-menu {
+    font-size: 6.2rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .cta-menu {
+    font-size: 4rem;
+  }
+
+  .cta-menu p:last-child {
+    padding-top: 4rem;
+  }
+  .food-card-title {
+    font-size: 4rem;
+  }
+
+  .food-quote {
+    font-size: 1.8rem;
+  }
+
+  .table-dishes {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .table-dishes:first-child {
+    grid-auto-rows: max-content;
+    grid-column: span 2;
+  }
+  .table-dishes:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .table-dishes:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .table-dishes:nth-child(4) {
+    grid-column: span -2;
+    grid-row: 3;
+  }
+
+  .dishes-menu-btn {
+    grid-row: 5;
+    text-align: center;
+    grid-column: span 1;
+  }
+
+  .flex-rest {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 3rem;
+    padding-top: 10rem;
+  }
+  .cta-title {
+    font-size: 3rem;
+  }
+  .grid-footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .side-card {
+    padding: 12px;
+    width: 85%;
+  }
+}
