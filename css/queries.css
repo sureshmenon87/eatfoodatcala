@@ -174,18 +174,18 @@
 
 @media (max-width: 34em) {
   .cta-menu {
-    font-size: 4rem;
+    font-size: 3.2rem;
   }
 
   .cta-menu p:last-child {
-    padding-top: 4rem;
+    padding-top: 3rem;
   }
   .food-card-title {
     font-size: 4rem;
   }
 
   .food-quote {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 
   .table-dishes {
@@ -231,5 +231,32 @@
   .side-card {
     padding: 12px;
     width: 85%;
+  }
+  .cta-app p {
+    font-size: 2.2rem;
+    padding-bottom: 8rem;
+  }
+  .dishes-heading {
+    font-size: 3.8rem;
+    padding-top: 6rem;
+    padding-bottom: 1.4rem;
+  }
+  .card-title {
+    font-size: 3.4rem;
+  }
+  .card-desc {
+    font-size: 1.8rem;
+  }
+  .footer-heading {
+    font-size: 2rem;
+  }
+
+  .footer-links {
+    font-size: 1.2rem;
+  }
+
+  .cta-menu-btn {
+    padding: 12px 28px 12px 28px;
+    font-size: 1.4rem;
   }
 }
