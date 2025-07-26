@@ -28,7 +28,8 @@ This website replicates the responsive behavior and layout structure of a food d
 
 ## 📷 Screenshots
 
-_(Add screenshots here if available. You can use `![Alt text](image-path)` syntax.)_
+![Screenshots](./screenshot.png)
+
 
 ## 📜 License
 
